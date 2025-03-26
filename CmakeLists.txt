@@ -1,0 +1,10 @@
+cmake_minimum_required(VERSION 3.10) #Ensure at least CMake 3.10 is used my cmake version is more than this but you have to at least have latest version for your self Ensures CMake version 3.10 or later is used.
+project(CmakeCpp)  # Set the project name
+include_directories(include) # Set include directory for headers
+# add static libraries
+//#//add_library(utils STASTIC src/utils)
+# Create a shared library (DLL) from utils.cpp
+add_library(utils SHARED src/utils.cpp)
+set(SOURCE_FILES src/main.cpp src/ThirdAction.cpp)  # Define a variables which can be any cpp file for building in cmake || now this is exutable and utils act as static library
+add_executable(hello ${SOURCE_FILES})   # Create an executable with varaible named source_files
+target_link_libraries(hello utils) # target the library
