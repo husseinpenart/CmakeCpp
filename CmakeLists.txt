@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.10)
+﻿cmake_minimum_required(VERSION 3.10)
 project(CmakeCpp)
 include_directories(include)
 
@@ -23,3 +23,19 @@ create_library_and_link(hello utils src/utils.cpp)
 
 # Use macro (alternative way)
 #create_library_and_link_macro(hello another_lib)  # Must have src/another_lib.cpp in this case i dont have another library
+#CMake Presets & Build Types
+#When building a project, you usually have different modes:
+
+#🛠 Debug → Includes debugging symbols and no optimizations (useful during development).
+#
+#🚀 Release → Optimized for performance, removes debugging symbols.
+#
+#⚙️ RelWithDebInfo → Optimized but still includes debug symbols.
+#
+#🛡 MinSizeRel → Optimized for the smallest binary size.
+#When you run CMake in the terminal, you can specify the build type:
+
+#cmake -DCMAKE_BUILD_TYPE=Debug -S . -B build
+#cmake --build build
+set(CMAKE_BUILD_TYPE  Debug) # Change to Release for optimization
+
