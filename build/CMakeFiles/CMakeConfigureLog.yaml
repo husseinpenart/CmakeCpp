@@ -24,7 +24,7 @@ events:
       The output was:
       0
       MSBuild version 17.12.12+1cce77968 for .NET Framework
-      Build started 3/26/2025 6:59:50 AM.
+      Build started 3/27/2025 1:50:45 AM.
       
       Project "C:\\Users\\PinkFloyd\\source\\repos\\CmakeCpp\\build\\CMakeFiles\\3.31.5\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -53,7 +53,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:00.51
+      Time Elapsed 00:00:00.58
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -79,7 +79,7 @@ events:
       The output was:
       0
       MSBuild version 17.12.12+1cce77968 for .NET Framework
-      Build started 3/26/2025 6:59:51 AM.
+      Build started 3/27/2025 1:50:46 AM.
       
       Project "C:\\Users\\PinkFloyd\\source\\repos\\CmakeCpp\\build\\CMakeFiles\\3.31.5\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -127,8 +127,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/PinkFloyd/source/repos/CmakeCpp/build/CMakeFiles/CMakeScratch/TryCompile-e2ofds"
-      binary: "C:/Users/PinkFloyd/source/repos/CmakeCpp/build/CMakeFiles/CMakeScratch/TryCompile-e2ofds"
+      source: "C:/Users/PinkFloyd/source/repos/CmakeCpp/build/CMakeFiles/CMakeScratch/TryCompile-l7r65k"
+      binary: "C:/Users/PinkFloyd/source/repos/CmakeCpp/build/CMakeFiles/CMakeScratch/TryCompile-l7r65k"
     cmakeVariables:
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
       CMAKE_C_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -137,40 +137,40 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/PinkFloyd/source/repos/CmakeCpp/build/CMakeFiles/CMakeScratch/TryCompile-e2ofds'
+        Change Dir: 'C:/Users/PinkFloyd/source/repos/CmakeCpp/build/CMakeFiles/CMakeScratch/TryCompile-l7r65k'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cfbd5.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8e797.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.12.12+1cce77968 for .NET Framework
-        Build started 3/26/2025 6:59:52 AM.
+        Build started 3/27/2025 1:50:47 AM.
         
-        Project "C:\\Users\\PinkFloyd\\source\\repos\\CmakeCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e2ofds\\cmTC_cfbd5.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\PinkFloyd\\source\\repos\\CmakeCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l7r65k\\cmTC_8e797.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_cfbd5.dir\\Debug\\".
+          Creating directory "cmTC_8e797.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\PinkFloyd\\source\\repos\\CmakeCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e2ofds\\Debug\\".
-          Creating directory "cmTC_cfbd5.dir\\Debug\\cmTC_cfbd5.tlog\\".
+          Creating directory "C:\\Users\\PinkFloyd\\source\\repos\\CmakeCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l7r65k\\Debug\\".
+          Creating directory "cmTC_8e797.dir\\Debug\\cmTC_8e797.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_cfbd5.dir\\Debug\\cmTC_cfbd5.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_cfbd5.dir\\Debug\\cmTC_cfbd5.tlog\\unsuccessfulbuild".
+          Creating "cmTC_8e797.dir\\Debug\\cmTC_8e797.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_8e797.dir\\Debug\\cmTC_8e797.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cfbd5.dir\\Debug\\\\" /Fd"cmTC_cfbd5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8e797.dir\\Debug\\\\" /Fd"cmTC_8e797.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_cfbd5.dir\\Debug\\\\" /Fd"cmTC_cfbd5.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8e797.dir\\Debug\\\\" /Fd"cmTC_8e797.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TC /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\PinkFloyd\\source\\repos\\CmakeCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e2ofds\\Debug\\cmTC_cfbd5.exe" /INCREMENTAL /ILK:"cmTC_cfbd5.dir\\Debug\\cmTC_cfbd5.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/PinkFloyd/source/repos/CmakeCpp/build/CMakeFiles/CMakeScratch/TryCompile-e2ofds/Debug/cmTC_cfbd5.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/PinkFloyd/source/repos/CmakeCpp/build/CMakeFiles/CMakeScratch/TryCompile-e2ofds/Debug/cmTC_cfbd5.lib" /MACHINE:X64  /machine:x64 cmTC_cfbd5.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_cfbd5.vcxproj -> C:\\Users\\PinkFloyd\\source\\repos\\CmakeCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e2ofds\\Debug\\cmTC_cfbd5.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\PinkFloyd\\source\\repos\\CmakeCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l7r65k\\Debug\\cmTC_8e797.exe" /INCREMENTAL /ILK:"cmTC_8e797.dir\\Debug\\cmTC_8e797.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/PinkFloyd/source/repos/CmakeCpp/build/CMakeFiles/CMakeScratch/TryCompile-l7r65k/Debug/cmTC_8e797.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/PinkFloyd/source/repos/CmakeCpp/build/CMakeFiles/CMakeScratch/TryCompile-l7r65k/Debug/cmTC_8e797.lib" /MACHINE:X64  /machine:x64 cmTC_8e797.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_8e797.vcxproj -> C:\\Users\\PinkFloyd\\source\\repos\\CmakeCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l7r65k\\Debug\\cmTC_8e797.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_cfbd5.dir\\Debug\\cmTC_cfbd5.tlog\\unsuccessfulbuild".
-          Touching "cmTC_cfbd5.dir\\Debug\\cmTC_cfbd5.tlog\\cmTC_cfbd5.lastbuildstate".
-        Done Building Project "C:\\Users\\PinkFloyd\\source\\repos\\CmakeCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-e2ofds\\cmTC_cfbd5.vcxproj" (default targets).
+          Deleting file "cmTC_8e797.dir\\Debug\\cmTC_8e797.tlog\\unsuccessfulbuild".
+          Touching "cmTC_8e797.dir\\Debug\\cmTC_8e797.tlog\\cmTC_8e797.lastbuildstate".
+        Done Building Project "C:\\Users\\PinkFloyd\\source\\repos\\CmakeCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-l7r65k\\cmTC_8e797.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.49
+        Time Elapsed 00:00:00.50
         
       exitCode: 0
   -
@@ -210,8 +210,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/PinkFloyd/source/repos/CmakeCpp/build/CMakeFiles/CMakeScratch/TryCompile-o9jmmn"
-      binary: "C:/Users/PinkFloyd/source/repos/CmakeCpp/build/CMakeFiles/CMakeScratch/TryCompile-o9jmmn"
+      source: "C:/Users/PinkFloyd/source/repos/CmakeCpp/build/CMakeFiles/CMakeScratch/TryCompile-ej9udb"
+      binary: "C:/Users/PinkFloyd/source/repos/CmakeCpp/build/CMakeFiles/CMakeScratch/TryCompile-ej9udb"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -221,40 +221,40 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/PinkFloyd/source/repos/CmakeCpp/build/CMakeFiles/CMakeScratch/TryCompile-o9jmmn'
+        Change Dir: 'C:/Users/PinkFloyd/source/repos/CmakeCpp/build/CMakeFiles/CMakeScratch/TryCompile-ej9udb'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_eb482.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/2022/Community/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_2293e.vcxproj /p:Configuration=Debug /p:Platform=x64 /p:VisualStudioVersion=17.0 /v:n
         MSBuild version 17.12.12+1cce77968 for .NET Framework
-        Build started 3/26/2025 6:59:53 AM.
+        Build started 3/27/2025 1:50:48 AM.
         
-        Project "C:\\Users\\PinkFloyd\\source\\repos\\CmakeCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o9jmmn\\cmTC_eb482.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\PinkFloyd\\source\\repos\\CmakeCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ej9udb\\cmTC_2293e.vcxproj" on node 1 (default targets).
         PrepareForBuild:
-          Creating directory "cmTC_eb482.dir\\Debug\\".
+          Creating directory "cmTC_2293e.dir\\Debug\\".
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\PinkFloyd\\source\\repos\\CmakeCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o9jmmn\\Debug\\".
-          Creating directory "cmTC_eb482.dir\\Debug\\cmTC_eb482.tlog\\".
+          Creating directory "C:\\Users\\PinkFloyd\\source\\repos\\CmakeCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ej9udb\\Debug\\".
+          Creating directory "cmTC_2293e.dir\\Debug\\cmTC_2293e.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_eb482.dir\\Debug\\cmTC_eb482.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_eb482.dir\\Debug\\cmTC_eb482.tlog\\unsuccessfulbuild".
+          Creating "cmTC_2293e.dir\\Debug\\cmTC_2293e.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_2293e.dir\\Debug\\cmTC_2293e.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_eb482.dir\\Debug\\\\" /Fd"cmTC_eb482.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2293e.dir\\Debug\\\\" /Fd"cmTC_2293e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.42.34436 for x64
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_eb482.dir\\Debug\\\\" /Fd"cmTC_eb482.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /D _MBCS /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /GR /Fo"cmTC_2293e.dir\\Debug\\\\" /Fd"cmTC_2293e.dir\\Debug\\vc143.pdb" /external:W3 /Gd /TP /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-3.31\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\PinkFloyd\\source\\repos\\CmakeCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o9jmmn\\Debug\\cmTC_eb482.exe" /INCREMENTAL /ILK:"cmTC_eb482.dir\\Debug\\cmTC_eb482.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/PinkFloyd/source/repos/CmakeCpp/build/CMakeFiles/CMakeScratch/TryCompile-o9jmmn/Debug/cmTC_eb482.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/PinkFloyd/source/repos/CmakeCpp/build/CMakeFiles/CMakeScratch/TryCompile-o9jmmn/Debug/cmTC_eb482.lib" /MACHINE:X64  /machine:x64 cmTC_eb482.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_eb482.vcxproj -> C:\\Users\\PinkFloyd\\source\\repos\\CmakeCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o9jmmn\\Debug\\cmTC_eb482.exe
+          C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.42.34433\\bin\\HostX64\\x64\\link.exe /ERRORREPORT:QUEUE /OUT:"C:\\Users\\PinkFloyd\\source\\repos\\CmakeCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ej9udb\\Debug\\cmTC_2293e.exe" /INCREMENTAL /ILK:"cmTC_2293e.dir\\Debug\\cmTC_2293e.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/PinkFloyd/source/repos/CmakeCpp/build/CMakeFiles/CMakeScratch/TryCompile-ej9udb/Debug/cmTC_2293e.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/Users/PinkFloyd/source/repos/CmakeCpp/build/CMakeFiles/CMakeScratch/TryCompile-ej9udb/Debug/cmTC_2293e.lib" /MACHINE:X64  /machine:x64 cmTC_2293e.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_2293e.vcxproj -> C:\\Users\\PinkFloyd\\source\\repos\\CmakeCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ej9udb\\Debug\\cmTC_2293e.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_eb482.dir\\Debug\\cmTC_eb482.tlog\\unsuccessfulbuild".
-          Touching "cmTC_eb482.dir\\Debug\\cmTC_eb482.tlog\\cmTC_eb482.lastbuildstate".
-        Done Building Project "C:\\Users\\PinkFloyd\\source\\repos\\CmakeCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-o9jmmn\\cmTC_eb482.vcxproj" (default targets).
+          Deleting file "cmTC_2293e.dir\\Debug\\cmTC_2293e.tlog\\unsuccessfulbuild".
+          Touching "cmTC_2293e.dir\\Debug\\cmTC_2293e.tlog\\cmTC_2293e.lastbuildstate".
+        Done Building Project "C:\\Users\\PinkFloyd\\source\\repos\\CmakeCpp\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ej9udb\\cmTC_2293e.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:00.49
+        Time Elapsed 00:00:00.50
         
       exitCode: 0
   -

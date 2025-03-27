@@ -2,12 +2,24 @@ cmake_minimum_required(VERSION 3.10)
 project(CmakeCpp)
 include_directories(include)
 
-# Create a static library from utils.cpp
-add_library(utils STATIC src/utils.cpp)
+# Function to create and link a library
+function(create_library_and_link exec_name lib_name source_file)
+    add_library(${lib_name} STATIC ${source_file})  # Create a static library
+    target_link_libraries(${exec_name} PRIVATE ${lib_name})  # Link it privately
+endfunction()
+
+# Macro (less flexible, but useful)
+macro(create_library_and_link_macro exec_name lib_name)
+    add_library(${lib_name} STATIC src/${lib_name}.cpp)  # Assumes file = lib_name.cpp
+    target_link_libraries(${exec_name} PRIVATE ${lib_name})
+endmacro()
 
 # Define source files for the executable
 set(SOURCE_FILES src/main.cpp src/ThirdAction.cpp)
 add_executable(hello ${SOURCE_FILES})
 
-# Link the executable to the utils static library
-target_link_libraries(hello utils)
+# Use function to create and link the 'utils' library
+create_library_and_link(hello utils src/utils.cpp)
+
+# Use macro (alternative way)
+#create_library_and_link_macro(hello another_lib)  # Must have src/another_lib.cpp in this case i dont have another library
